@@ -1,1 +1,50 @@
 
+/* Globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuente-principal);
+    color: var(--color-fuente);
+    background-color: var(--color-primario);
+}
+
+:root {
+    /* Colores */
+    --color-primario: #000; 
+    --color-secundario: #0dcaf0; 
+    --color-fuente: #ffff; 
+  
+    /* Tipografía */
+    --fuente-principal: "Raleway", sans-serif; 
+    --tamano-fuente: 16px; 
+  }
+
+.container-ancho {
+    margin-left: 200px; /* Margen a la izquierda */
+    margin-right: 200px; 
+}
+
+
+  .logo {
+    width: 50px;
+    text-decoration: none;
+  }
+
+  
+  .text-bg-card {
+    background-color: var(--color-primario);
+  }
+
+  .card-header {
+    background-color: var(--color-secundario);
+    color: var(--color-fuente);
+  }
+
+  .card-text {
+    color: var(--color-fuente);
+  }
+
