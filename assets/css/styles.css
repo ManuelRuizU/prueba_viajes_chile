@@ -39,6 +39,11 @@ body {
     background-color: var(--color-primario);
   }
 
+  .card-img-top2 {
+   max-height:  185px; ;
+  }
+
+
   .card-header {
     background-color: var(--color-secundario);
     color: var(--color-fuente);
@@ -49,6 +54,11 @@ body {
   }
 
   .card-cuerpo {
+    background-color: var(--color-secundario);
+    color: var(--color-fuente);
+  }
+
+  .bg-pie{
     background-color: var(--color-secundario);
     color: var(--color-fuente);
   }
