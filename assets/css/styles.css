@@ -1,1 +1,75 @@
+/* Globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: var(--fuente-principal);
+    color: var(--color-fuente);
+    background-color: var(--color-primario);
+}
+
+:root {
+    /* Colores */
+    --color-primario: #000;
+    --color-secundario: #0dcaf0;
+    --color-fuente: #ffff;
+    --color-alerta: #f85707;
+
+    /* Tipografía */
+    --fuente-principal: "Raleway", sans-serif;
+    --tamano-fuente: 16px;
+}
+
+
+
+
+.logo {
+    width: 30px;
+    text-decoration: none;
+}
+
+
+.text-bg-card {
+    background-color: var(--color-primario);
+}
+
+.card-img-top2 {
+    max-height: 164px;
+    ;
+}
+
+
+.card-header {
+    background-color: var(--color-secundario);
+    color: var(--color-fuente);
+}
+
+.card-text {
+    color: var(--color-fuente);
+}
+
+.card-cuerpo {
+    background-color: var(--color-secundario);
+    color: var(--color-fuente);
+}
+
+.tooltip-inner {
+    color: rgb(74, 242, 2);
+}
+
+
+#mensaje-enviado {
+    background-color: transparent; 
+    color: var(--color-alerta); 
+    border-color: var(--color-alerta);
+    text-align: center;
+}
+
+
+.bg-pie {
+    background-color: var(--color-secundario);
+    color: var(--color-fuente);
+}
